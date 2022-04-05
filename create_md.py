@@ -10,5 +10,5 @@ if __name__ == '__main__':
     with open(data_path[:-1]+'.md', "w") as f:
         for filename in filenames:
             if filename.startswith('PD'):
-                to_write_down = "<img src='%s%s' width='400'>"%(data_path, filename)
+                to_write_down = "<img src='%s%s' width='800'>"%(data_path, filename)
                 f.write(to_write_down)
