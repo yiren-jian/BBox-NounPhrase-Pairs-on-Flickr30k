@@ -4,7 +4,7 @@ from os.path import isfile, join
 # import cv2
 
 if __name__ == '__main__':
-    data_path = 'method2/'
+    data_path = 'method1/'
     filenames = [f for f in listdir(data_path) if isfile(join(data_path, f)) if f.endswith('png')]
 
     with open(data_path[:-1]+'.md', "w") as f:
