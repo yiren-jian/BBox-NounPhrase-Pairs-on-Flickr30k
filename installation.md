@@ -11,6 +11,6 @@ TODO
 ### install nltk packages
 ```python
 import nltk
-nltk.downlaod('wordnet')
-nltk.downlaod('omw-1.4')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 ```
