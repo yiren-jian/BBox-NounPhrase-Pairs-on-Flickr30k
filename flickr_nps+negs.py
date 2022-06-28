@@ -277,7 +277,7 @@ if __name__ == '__main__':
     import argparse
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--run', default=0, type=int)
+    parser.add_argument('--image_idx', default=0, type=int)
     args = parser.parse_args()
 
     flickr30k_path = '/home/yiren/flickr30k_entities/flickr30k-images'
@@ -290,7 +290,7 @@ if __name__ == '__main__':
     # id = 3466353172
     # id = 3031093209
     # id = 2115849046
-    id = ids[args.run]
+    id = ids[args.image_idx]
     print("image id: ", id)
 
     #### get the 5 captions for the image
